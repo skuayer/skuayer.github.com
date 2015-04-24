@@ -14,7 +14,7 @@ published: true
 * JQuery, Bootsrap, css3, html5
 * Postgresql, MySQL, MongoDB, Solr
 
-<form action="http://formspree.io/zhukov87@gmail.com">
+<form action="http://formspree.io/zhukov87@gmail.com" method="POST">
   <input type="email" name="_replyto">
   <textarea name="body"></textarea>
   <input type="submit" value="Send">
