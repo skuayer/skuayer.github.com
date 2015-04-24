@@ -2,6 +2,7 @@
 layout: page
 title: Обо мне
 permalink: /about/
+published: true
 ---
 
 Занимаюсь разработкой сайтов и приложений уже больше 6 лет. Для меня это не просто работа, но и мое хобби.
@@ -13,4 +14,8 @@ permalink: /about/
 * JQuery, Bootsrap, css3, html5
 * Postgresql, MySQL, MongoDB, Solr
 
-
+<form action="http://formspree.io/zhukov87@gmail.com">
+  <input type="email" name="_replyto">
+  <textarea name="body"></textarea>
+  <input type="submit" value="Send">
+</form>
