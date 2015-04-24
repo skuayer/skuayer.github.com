@@ -1,0 +1,12 @@
+# Site settings
+title: Блог разработчика
+email: zhukov87@gmail.com
+description: >
+  Меня зовут Анатолий Жуков и это мой блог о различных аспектах моей работы, жизни, да и в общем то обо все что мне придет в голову... =)
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://skuyaer.github.io" # the base hostname & protocol for your site
+github_username:  skuayer
+permalink: pretty
+
+# Build settings
+markdown: kramdown
