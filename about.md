@@ -2,7 +2,6 @@
 layout: page
 title: Обо мне
 permalink: /about/
-published: true
 ---
 
 Занимаюсь разработкой сайтов и приложений уже больше 6 лет. Для меня это не просто работа, но и мое хобби.
@@ -15,7 +14,10 @@ published: true
 * Postgresql, MySQL, MongoDB, Solr
 
 <form action="http://formspree.io/zhukov87@gmail.com" method="POST">
-  <input type="email" name="_replyto">
-  <textarea name="body"></textarea>
-  <input type="submit" value="Send">
+  <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input name="_replyto" type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <textarea name="body" class="form-control" rows="3" placeholder="Enter text for me"></textarea>
+  <input type="submit" value="Send" class="btn btn-primary">
 </form>
